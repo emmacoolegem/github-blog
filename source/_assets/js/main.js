@@ -1,5 +1,7 @@
 import Vue from 'vue';
 
+import Stars from './components/Stars';
+
 const app = new Vue({
     el: '#app',
     data: {
@@ -9,5 +11,8 @@ const app = new Vue({
         toggleNav: function () {
             this.navIsOpen = !this.navIsOpen;
         }
+    },
+    components: {
+        Stars
     }
 });
