@@ -11,6 +11,10 @@ mix.webpackConfig({
     ]
 });
 
+mix.copy('source/_assets/img/**.*', 'source/assets/build/img');
+mix.copy('source/_assets/fonts/**.*', 'source/assets/build/fonts');
+mix.copy('node_modules/@fortawesome/fontawesome-free/webfonts/**.*', 'source/assets/build/fonts');
+
 mix.js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css')
     .options({

@@ -213,7 +213,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -257,7 +257,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -301,7 +301,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -346,7 +346,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -398,7 +398,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -456,7 +456,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v5.6.31",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",

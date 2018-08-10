@@ -1,0 +1,14 @@
+.nav-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: $body-background-color;
+    padding-top: 3em;
+    &.show {
+        display: block;
+    }
+}

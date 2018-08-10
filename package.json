@@ -17,5 +17,10 @@
         "on-build-webpack": "^0.1.0",
         "webpack-watch": "^0.2.0",
         "yargs": "^4.6.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.2.0",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.17"
     }
 }

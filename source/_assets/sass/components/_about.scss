@@ -1,0 +1,27 @@
+.about {
+    .about-header { 
+        width: 80%;
+        height: 14em;
+        margin: 0 auto 2em auto;
+        
+        @include mobile {
+            width: 100%;
+        }
+
+        img {
+            background-color: $light-grey;
+            border-radius: 50%;
+        }
+
+        h2 {
+            float: right;
+            font-style: italic;
+        }
+    }
+
+    hr {
+        width: 75%;
+        float: right;
+        margin-top: 1em;
+    }
+}

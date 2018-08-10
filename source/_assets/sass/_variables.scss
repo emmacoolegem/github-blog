@@ -1,0 +1,25 @@
+/* Colors */
+$primary: #ff0000;
+$link: $primary;
+
+$black: #000000;
+$white: #ffffff;
+
+$grey: lighten($black, 50%);
+$light-grey: lighten($grey, 30%);
+
+/* Breakpoints */
+$mobile: 37.5em;
+$tablet: 50em;
+$laptop: 64em;
+$desktop: 70em;
+
+/* Body */
+$body-background-color: $white;
+
+/* Container */
+$container-width: 40em;
+$container-padding: 2em;
+
+/* Site header */
+$social-background-color: $light-grey;
