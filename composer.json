@@ -1,5 +1,6 @@
 {
     "require": {
-        "tightenco/jigsaw": "^1.2"
+        "tightenco/jigsaw": "^1.2",
+        "illuminate/support": "^5.6"
     }
 }

@@ -1,10 +1,11 @@
 ---
 title: Valerian
-date: 09-08-2018
-lead: Lorem ipsum
+date: 
+lead: 
+rating: 
+genre: sci-fi
+published: false
 
 extends: _layouts.review
 section: content
 ---
-
-**My review**
