@@ -7,18 +7,6 @@ return [
     'linkedin' => 'emma-coolegem-32b72515a',
     'email' => 'emmacoolegem@outlook.com',
 
-    'publishedReviews' => function ($reviews) {
-        return array_where($reviews, function ($value, $key) {
-            return $value->published == true;
-        });
-    },
-
-    'genreReviews' => function ($page, $publishedReviews) {
-        return array_where($publishedReviews, function ($value, $key) {
-            return $value->genre == strtolower($page->title);
-        });
-    },
-
     'baseUrl' => '',
     'production' => false,
     'collections' => [
